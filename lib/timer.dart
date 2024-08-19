@@ -41,7 +41,6 @@ class _HomeScreenState extends State<HomeScreen> {
   }
 
   void clearTimer() {
-    stopTimmer();
     setState(() {
       _runningTime = 0;
     });
